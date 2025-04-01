@@ -20,7 +20,7 @@ cd devblog
 - Import the provided SQL file (`database.sql`) into your MySQL database.  
 
 ### 3. Configure Database Connection  
-- Update your database credentials in `config.php`:  
+- Update your database credentials in `config/database.php`:  
 ```
 define('DB_HOST', 'your_host');
 define('DB_USER', 'your_username');
